@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ JAVASCRIPT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="start-quiz-btn">Mulai Quiz!!</button>
+    <div class="container">
+        <div class="top-bar">
+            <div class="question-counter">
+                <!-- masukan count -->
+            </div>
+            <div class="timer">
+                <span><i class="fa-regular fa-clock"></i></span>
+                <span class="time-left"></span>
+            </div>
+            <div class="time-line"></div>
+        </div>
+
+        <div class="ques-text">
+            <!-- masukan pertanyaan -->
+        </div>
+        <div class="option-div">
+            <!-- masukan opsi -->
+        </div>
+        <button class="next-ques-btn click-disable">NEXT</button>
+    </div>
+
+    <div class="result-div">
+        <i class="fa-solid fa-crown"></i>
+        <span>kamu telah menyelesaikan quisnyo!!</span>
+        <div class="score">
+            <!-- masukan score -->
+        </div>
+        <button class="replay-quiz-btn" onclick="location.reload()">MULAI LAGEE!</button>
+    </div>
+    <script src="script.js"></script>
+    <script src="questions.js"></script>
+</body>
+</html>
